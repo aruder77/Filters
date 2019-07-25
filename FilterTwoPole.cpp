@@ -195,7 +195,7 @@ void FilterTwoPole::test() {
 
     osc.input(inputValue);
 
-    analogWrite(10,osc.output() ); // hardcoded the dial pin
+    //analogWrite(10,osc.output() ); // hardcoded the dial pin
 
     if( now > nextupdateTime ) {
       nextupdateTime += updateInterval;
